@@ -5,6 +5,7 @@ from io import BytesIO
 import base64
 import seaborn as sns
 
+#flask 사용
 app = Flask(__name__)
 
 # 데이터 읽기
