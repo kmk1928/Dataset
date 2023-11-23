@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Visualization</title>
+  </head>
+  <body>
+    <h1>성별 인원 분포</h1>
+    <img
+      src="data:image/png;base64,{{ gender_distribution }}"
+      alt="Gender Distribution"
+    />
+
+    <h1>재범 여부에 따른 성별 분포</h1>
+    <img
+      src="data:image/png;base64,{{ recid_gender_distribution }}"
+      alt="Recidivism Gender Distribution"
+    />
+  </body>
+</html>
